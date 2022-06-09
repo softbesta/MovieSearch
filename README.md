@@ -1,3 +1,7 @@
+# Deployed site url
+
+http://VS-star.github.io/MovieSearch
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
