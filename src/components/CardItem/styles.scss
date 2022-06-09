@@ -1,0 +1,7 @@
+.container-card {
+  @apply lg:max-w-sm m-3 relative flex flex-col;
+}
+
+.container-image {
+  @apply border border-gray-300 rounded-lg drop-shadow-[0_2px_2px_rgba(0,0,0,0.5)];
+}
