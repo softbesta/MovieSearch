@@ -39,7 +39,9 @@
     "fix:scripts": "eslint --fix src/**/*.{js,jsx}",
     "fix:styles": "stylelint --fix src/**/*.{css,scss}",
     "fix:prettier": "npx prettier --write src/**/*.{js,jsx,css,scss}",
-    "fix": "npm run -s fix:scripts & npm run -s fix:styles & npm run -s fix:prettier"
+    "fix": "npm run -s fix:scripts & npm run -s fix:styles & npm run -s fix:prettier",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "resolutions": {
     "@types/react": "17.0.2",
@@ -68,6 +70,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
+    "gh-pages": "^4.0.0",
     "prettier": "^2.6.2",
     "redux-devtools-extension": "^2.13.9",
     "stylelint": "^14.9.0",
