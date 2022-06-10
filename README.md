@@ -1,6 +1,6 @@
 # Deployed site url
 
-http://VS-star.github.io/MovieSearch
+https://62a2935107db8400080e5fbd--leafy-mooncake-1b4e55.netlify.app/
 
 # Getting Started with Create React App
 
