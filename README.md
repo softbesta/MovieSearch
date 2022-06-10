@@ -1,6 +1,6 @@
 # Deployed site url
 
-http://VS-star.github.io/MovieSearch
+http://VS-star.github.io/
 
 # Getting Started with Create React App
 

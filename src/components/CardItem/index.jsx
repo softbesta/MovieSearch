@@ -11,7 +11,7 @@ export const CardItem = (props) => {
   return (
     <>
       <div className="container-card">
-        <div className="container-image">
+        <div className="container-image drop-shadow-card">
           <img
             className="w-full h-96 object-cover rounded-lg"
             src={imgSrc}
