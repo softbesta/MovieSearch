@@ -4,7 +4,7 @@ import { HomePage } from '../pages';
 
 const AppRoutes = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={window.location.pathname || ''}>
       <Routes>
         <Route path={ROUTES.HOME} element={<HomePage />} />
       </Routes>
