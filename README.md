@@ -1,6 +1,6 @@
 # Deployed site url
 
-https://VS-star.github.io/MovieSearch
+https://softbesta.github.io/MovieSearch
 
 # Getting Started with Create React App
 
